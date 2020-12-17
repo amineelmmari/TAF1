@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+html{
+    font-size: 18px;
+    font-family: "lato", arial, sans-serif;}
+body{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #563F67, #7984c2, #12aaeb, #cc3827);
+    background-size: 700% 700%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 100;
+        left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem 1rem;
+}
+section{
+    position: relative;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 2rem 6rem;
+    top: 27%;
+}
+ex1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5rem 6rem;
+    top: 90%;
+}
+section1{
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5rem 6rem;
+    top: 123%;
+}
+section2{
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5rem 6rem;
+    top: 188%;
+}
+ex2{
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5rem 6rem;
+    top: 192%;
+}
+ex3{
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5rem 6rem;
+    top: 200%;
+}
+ex4{
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5rem 6rem;
+    top: 258%;
+}
+ex5{
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5rem 6rem;
+    top: 265%;
+}
+ex6{
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5rem 6rem;
+    top: 273%;
+}
+b{
+    position: absolute;
+    top: 113%;
+    left: 60%;
+    transform: translateX(-50% -50%);}
+a{  
+ position: absolute;
+    top: 113%;
+    left: 20%;
+    transform: translateX(-50% -50%);}
+d{  
+    position: absolute;
+    top: 180%;
+    left: 20%;
+    transform: translateX(-50% -50%);}
+e{
+    position: absolute;
+    top: 180%;
+    left: 60%;
+    transform: translateX(-50% -50%);}
+f{  
+    position: absolute;
+    top: 248%;
+    left: 20%;
+    transform: translateX(-50% -50%);}
+c{  
+    position: absolute;
+    top: 248%;
+    left: 60%;
+    transform: translateX(-50% -50%);}
+@keyframes change {
+    0%{
+    background-position: 0 50%;
+    }
+    50%{
+    background-position: 100% 50%;
+    }
+    100%{
+    background-position: 0 50%;
+    }
+}
+
+

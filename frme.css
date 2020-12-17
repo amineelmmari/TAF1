@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+}
+nav{
+    width: 100%;
+    margin: 0px auto 404px auto;
+    position: fixed;
+    top: 9px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid transparent;
+    padding: 14px 0px;
+}
+nav a:hover{
+    color: cadetblue;
+    border-bottom: 6px solid rgb(137, 251, 255);
+    animation: change 10s ease-in-out infinite;
+}
+.conteneur{
+  margin: 0px 20px;
+  height: 190px;
+}
+@keyframes change {
+    0%{
+    background-position: 0 50%;
+    }
+    50%{
+    background-position: 100% 50%;
+    }
+    100%{
+    background-position: 0 50%;
+    }
+}
